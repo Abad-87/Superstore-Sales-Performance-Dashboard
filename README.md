@@ -44,22 +44,6 @@ A full **business intelligence pipeline** built on the Sample Superstore dataset
 
 ---
 
-## 🗂️ Project Structure
-
-```
-📦 superstore-sales-analytics
-├── 📁 data
-│   └── Sample_Superstore.xls          # Raw source data
-├── 📁 analysis
-│   └── eda.py                         # Python EDA with pandas
-├── 📁 powerbi
-│   ├── dashboard.pbix                 # Power BI report file
-│   └── dax_measures.md                # All DAX measures documented
-├── 📁 outputs
-│   └── dashboard_screenshot.png       # Dashboard preview
-└── README.md
-```
-
 ---
 
 ## 🔍 Analysis Breakdown
