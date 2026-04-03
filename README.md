@@ -23,7 +23,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 A full **business intelligence pipeline** built on the Sample Superstore dataset — from raw Excel data to a client-ready interactive dashboard. This project answers the key questions every business should be asking:
 
@@ -31,41 +31,41 @@ A full **business intelligence pipeline** built on the Sample Superstore dataset
 
 ---
 
-## 📊 Key Findings at a Glance
+##  Key Findings at a Glance
 
 | Metric | Value |
 |---|---|
-| 💰 Total Revenue | **$2,297,201** |
-| 📈 Total Profit | **$286,397** |
-| 🎯 Profit Margin | **12.5%** |
-| 🛒 Total Orders | **5,009** |
-| 👥 Unique Customers | **793** |
-| 🚀 YoY Growth (2017) | **+20.4%** |
+|  Total Revenue | **$2,297,201** |
+|  Total Profit | **$286,397** |
+|  Profit Margin | **12.5%** |
+|  Total Orders | **5,009** |
+|  Unique Customers | **793** |
+|  YoY Growth (2017) | **+20.4%** |
 
 ---
 
 ---
 
-## 🔍 Analysis Breakdown
+##  Analysis Breakdown
 
-### 📦 Revenue by Category
+###  Revenue by Category
 
 | Category | Revenue | Profit | Margin |
 |---|---|---|---|
-| 🖥️ Technology | $836,154 | $145,454 | **17.4%** |
-| 🪑 Furniture | $741,999 | $18,451 | **2.5%** |
-| 📎 Office Supplies | $719,047 | $122,490 | **17.0%** |
+|  Technology | $836,154 | $145,454 | **17.4%** |
+|  Furniture | $741,999 | $18,451 | **2.5%** |
+|  Office Supplies | $719,047 | $122,490 | **17.0%** |
 
-### 🌍 Regional Performance
+###  Regional Performance
 
 | Region | Revenue | Profit | Margin |
 |---|---|---|---|
-| 🏆 West | $725,458 | $108,418 | **14.9%** |
+| West | $725,458 | $108,418 | **14.9%** |
 | East | $678,781 | $91,523 | 13.5% |
 | South | $391,722 | $46,749 | 11.9% |
-| ⚠️ Central | $501,240 | $39,706 | **7.9%** |
+| Central | $501,240 | $39,706 | **7.9%** |
 
-### 🔴 Loss-Making Sub-Categories
+###  Loss-Making Sub-Categories
 
 | Sub-Category | Margin |
 |---|---|
@@ -74,8 +74,13 @@ A full **business intelligence pipeline** built on the Sample Superstore dataset
 | Supplies | **-2.5%** |
 
 ---
+## Screenshots
+![Dashboard Previews](https://github.com/Abad-87/FUTURE_DS_01/blob/main/Screenshot%202026-03-17%20180907.png)
+![Dashboard Previews](https://github.com/Abad-87/FUTURE_DS_01/blob/main/Screenshot%202026-03-17%20181012.png)
+![Dashboard Previews](https://github.com/Abad-87/FUTURE_DS_01/blob/main/Screenshot%202026-03-17%20184231.png)
+![Dashboard Previews](https://github.com/Abad-87/FUTURE_DS_01/blob/main/Screenshot%202026-03-17%20184312.png)
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 ```
 Data Extraction  →  Python (pandas)
@@ -86,7 +91,7 @@ Date Intelligence→  Custom DAX Date Table
 
 ---
 
-## 🧮 Core DAX Measures
+##  Core DAX Measures
 
 <details>
 <summary><b>Click to expand all DAX measures</b></summary>
@@ -124,7 +129,7 @@ DIVIDE(
 
 ---
 
-## 🗓️ Date Table Setup
+##  Date Table Setup
 
 ```dax
 Date Table =
@@ -141,22 +146,22 @@ ADDCOLUMNS(
 )
 ```
 
-> ⚠️ Create via **Modeling → New Table**, then mark as Date Table and link to `Orders[Order Date]`
+>  Create via **Modeling → New Table**, then mark as Date Table and link to `Orders[Order Date]`
 
 ---
 
-## 💡 Business Recommendations
+##  Business Recommendations
 
 ```
-✅  GROW   →  Push Technology (esp. Copiers, Accessories) — 37% margin
-✅  GROW   →  Invest in West region — highest margin at 14.9%
-⚠️  FIX    →  Reprice Tables & Bookcases — currently losing money
-⚠️  FIX    →  Investigate Central region discounting practices
-📅  PLAN   →  Scale up inventory/staffing before Q4 (Nov peak)
-📅  PLAN   →  Launch Q1–Q2 campaigns to reduce seasonal revenue dips
+  GROW   →  Push Technology (esp. Copiers, Accessories) — 37% margin
+  GROW   →  Invest in West region — highest margin at 14.9%
+  FIX    →  Reprice Tables & Bookcases — currently losing money
+  FIX    →  Investigate Central region discounting practices
+  PLAN   →  Scale up inventory/staffing before Q4 (Nov peak)
+  PLAN   →  Launch Q1–Q2 campaigns to reduce seasonal revenue dips
 ```
 
 ---
-<p>Made with 📊 Python · Power BI · DAX</p>
+<p>Made with  Python · Power BI · DAX</p>
 
 </div>
